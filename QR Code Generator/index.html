@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class=" bg-slate-200 text-white h-screen w-screen">
+    <div class="container flex h-full w-full justify-center items-center">
+        <div class="generator bg-white p-2 flex flex-col justify-start items-center h-2/3 w-1/5 rounded-2xl drop-shadow-xl shadow-black">
+            <h1 class="text-3xl pt-4 text-black font-bold mb-6">QRCode Generator</h1>
+            <div class="txt border flex justify-center items-center rounded-lg h-10 border-blue-400 border-2 w-3/4 text-black mb-8">
+                <input class = "input text-center w-full h-full rounded-lg" type="text" placeholder="Enter Text or Url">
+            </div>
+            <div class="qrcode  flex justify-center items-center mb-2 bg-blue-400 h-[230px] w-[230px] rounded-xl mb-8">
+                <img class="qr bg" src="" alt="">
+            </div>
+            <div class="btn text-xl flex justify-center items-center bg-blue-400 text-center w-20 hover:bg-blue-300 hover:scale-105 h-10 rounded-md border border-blue-400 border-2 mb-3 text-white w-3/4">
+                <button class="but" type="submit">Generate QR</button>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
